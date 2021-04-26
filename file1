@@ -1,0 +1,7 @@
+ create table stock( st1 varchar(10), st2 int, st3 int, st4 int,st5 int);
+  create table sales( sa1 varchar(10), sa2 int, sa3 int, sa4 int,sa5 int);
+  display current date and time- select to_char(sysdate,'dd-mm-yyyy hh24:mi:ss') from dual;
+  display current date-select sysdate from dual;
+  display current date in DD/MM/YYYY format- select to_char(sysdate,'DD/MM/YYYY') from dual;
+  display current day as tuesday-select to_char(sysdate+1,'day') as "DAY" from dual;
+  display date after 10 days from the current date- select sysdate+10 from dual;
